@@ -34,5 +34,11 @@ public class MyController {
 		System.out.println(LoginData);
 		return "success";
 	}
+	
+	@GetMapping("/example")
+	public String example()
+	{
+		return "example";
+	}
 
 }
